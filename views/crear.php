@@ -82,7 +82,7 @@ if (!isset($_SESSION['usuario_logueado']) || $_SESSION['usuario_logueado'] !== t
 
                         <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                             <a href="index.php" class="btn btn-outline-light me-md-2">Cancelar</a>
-                            <input type="submit" value="Guardar Configuración" class="btn btn-danger px-5">
+                            <input type="submit" value="Crear" class="btn btn-danger px-5">
                         </div>
                     </form>
                 </div>
