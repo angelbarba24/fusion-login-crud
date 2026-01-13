@@ -42,7 +42,7 @@ if (!isset($_SESSION['usuario_logueado']) || $_SESSION['usuario_logueado'] !== t
         .table-custom thead { border-bottom: 2px solid #e10600; }
     </style>
 </head>
-<body class="bg-body-tertiary">
+<body class="bg-body-tertiary d-flex flex-column min-vh-100">
 
 <div class="container mt-5">
     
@@ -126,6 +126,9 @@ if (!isset($_SESSION['usuario_logueado']) || $_SESSION['usuario_logueado'] !== t
         </div>
     </div>
 </div>
+<footer class="text-center py-4 text-secondary border-top border-secondary border-opacity-25 mt-auto">
+    <small>Ángel Barba Fernández - 2º DAW</small>
+</footer>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

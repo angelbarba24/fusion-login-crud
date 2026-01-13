@@ -28,7 +28,6 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
         
         <style>
-            /* Mis estilos personalizados para el tema F1 */
             body {
                 background-image: radial-gradient(circle at 50% 50%, #300c0c 0%, #0f0f0f 100%);
                 height: 100vh;
@@ -55,7 +54,7 @@
             }
         </style>
     </head>
-    <body class="bg-body-tertiary">
+    <body class="bg-body-tertiary d-flex flex-column min-vh-100">
         <div class="container d-flex justify-content-center align-items-center vh-100">
             <div class="card p-4 rounded-3" style="max-width: 400px; width: 100%;">
                 
@@ -105,6 +104,9 @@
                 </form>
             </div>
         </div>
+        <footer class="text-center py-4 text-secondary border-top border-secondary border-opacity-25 mt-auto">
+            <small>Ángel Barba Fernández - 2º DAW</small>
+        </footer>
     </body>
     <script src="./views/js/validaciones.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>

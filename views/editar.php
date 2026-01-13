@@ -32,7 +32,7 @@ if (!isset($_SESSION['usuario_logueado']) || $_SESSION['usuario_logueado'] !== t
         }
     </style>
 </head>
-<body class="bg-body-tertiary">
+<body class="bg-body-tertiary d-flex flex-column min-vh-100">
 
 <div class="container">
     <div class="row justify-content-center">
@@ -91,6 +91,8 @@ if (!isset($_SESSION['usuario_logueado']) || $_SESSION['usuario_logueado'] !== t
         </div>
     </div>
 </div>
-
+<footer class="text-center py-4 text-secondary border-top border-secondary border-opacity-25 mt-auto">
+    <small>Ángel Barba Fernández - 2º DAW</small>
+</footer>
 </body>
 </html>
