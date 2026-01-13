@@ -2,7 +2,7 @@
 class Database {
     private $host = 'localhost';
     private $db_name = 'f1_management';
-    private $username = 'root';
+    private $username = 'login-php';
     private $password = '';
     public $conn;
 
