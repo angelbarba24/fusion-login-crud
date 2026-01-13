@@ -1,4 +1,4 @@
-# 🏎️ F1 Management System (MVC + Secure Login)
+# 🏎️ F1 Management System (MVC + Login Seguro)
 
 ![PHP Version](https://img.shields.io/badge/PHP-8.0%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
