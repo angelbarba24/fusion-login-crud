@@ -48,4 +48,4 @@ El proyecto sigue una estructura MVC estricta:
 │   ├── listar.php              # Vista principal (Dashboard)
 │   ├── crear.php               # Formulario de alta
 │   └── editar.php              # Formulario de edición
-└── index.php                   # Enrutador principal (Cerebro de la App)
+└── index.php                   # Enrutador principal
